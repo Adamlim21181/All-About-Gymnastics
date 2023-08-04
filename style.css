@@ -82,12 +82,12 @@ header {
     box-shadow: 0px 1px #000000;
 }
 
-#mens-cop {
+.cop {
     color: rgb(41, 115, 219);
 
 }
 
-#mens-cop:hover {
+.cop:hover {
     text-decoration: underline;
     color: rgb(41, 115, 219);
 
