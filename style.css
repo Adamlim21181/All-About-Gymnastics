@@ -4,7 +4,7 @@
     padding: 0;
 }
 
-html {
+.html {
     scroll-behavior: smooth;
 }
 
@@ -14,6 +14,10 @@ header {
     position: fixed;
     width: 1250px;
     box-shadow: 0px 1px #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10%;
 }
 
 li, a {
@@ -22,13 +26,6 @@ li, a {
     font-size: 20px;
     color:rgb(0, 0, 0);
     text-decoration: none;
-}
-
-header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 30px 10%;
 }
 
 .logo {
@@ -59,7 +56,6 @@ header {
     color:  rgb(170, 174, 176);
 }
 
-
 .nav-links li:nth-child(1){
     padding: 0 20px 0 0;
 }
@@ -76,6 +72,10 @@ header {
     word-spacing: 5px;
     line-height: 25px;
     font-size: 1.2em;
+}
+
+.pharagraph {
+    text-align: justify;
 }
 
 #author {
@@ -101,4 +101,55 @@ h2[id], h3[id], h4[id], h5[id], h6[id] {
     margin-top: -85px; 
     padding-top: 85px; 
 }
+
+.footerbrand-container {
+    background-color: black;
+    padding: 20px 0;
+    text-align: center;
+    margin-top: 60px;
+    margin: 0px;
+}
+
+.footer-container {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    text-align: center;
+    border-top: black;
+    border-top-style: ridge;
+    width: 100%;
+    border-top-width: 1px;
+    left: 0px;
+    font-size: medium;
+}
+
+.footer-nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer-nav ul li {
+    margin: 0 15px;
+    transition: all 0.3s ease 0s;
+}
+
+.links-style li a:hover {
+    transition: all 0.3s ease 0s;
+    color:  rgb(170, 174, 176);
+}
+
+.links-style li a {
+    color: #000000;
+    text-decoration: none;
+    font-size: medium;
+}
+
+.footer-bottom {
+    margin-top: 20px;
+    color: #000000;
+}
+
 
